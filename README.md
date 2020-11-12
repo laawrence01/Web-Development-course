@@ -1,2 +1,3 @@
 # Web-Development-course
-Here are posted projects and homeworks during the web development course
+Here is the website at which i'm working during the Web development course. 
+The project contains basic HTML, CSS essentials and later on i will add some JavaScript and NodeJs.
