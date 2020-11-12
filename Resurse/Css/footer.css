@@ -1,0 +1,33 @@
+.contact_us{
+  text-align: center;
+}
+.tabel_footer{
+width: 30%;
+margin-left: 35%;
+margin-top: 10px;
+}
+th{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px grey;
+
+}
+td{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+}
+.font_contact{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px grey;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 10px;
+
+}
+
+.tabel_element{
+margin-left: 5px;
+}

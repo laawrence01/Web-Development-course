@@ -1,0 +1,45 @@
+.meniu{
+
+  justify-content: space-around;
+  list-style: none;
+  text-shadow: 2px 2px grey;
+  display: flex;
+
+}
+
+.element_meniu{
+  color: lightblue;
+  /*font-family: 'Vollkorn', serif;
+  font-family: 'Roboto Condensed', sans-serif;*/
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+
+
+}
+
+.logo{
+
+  flex:1;
+  justify-content: flex-start;
+  font-size: 1.5vw;
+  font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 2px 2px grey;
+  color: lightblue;
+
+}
+
+.top_part{
+  display:flex;
+  width: 35vw;
+  margin: auto;
+  align-items: center;
+}
+.element_meniu:hover{
+  color:#d0f7f1;
+
+}
+
+nav{
+  flex:3;
+}

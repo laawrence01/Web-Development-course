@@ -1,0 +1,140 @@
+.grid_container>:nth-child(1) { grid-area: poza_1; }
+.grid_container>:nth-child(2) { grid-area: poza_2; }
+.grid_container>:nth-child(3) { grid-area: poza_3; }
+.grid_container>:nth-child(4) { grid-area: poza_4; }
+.grid_container>:nth-child(5) { grid-area: poza_5; }
+.grid_container>:nth-child(6) { grid-area: poza_6; }
+.grid_container>:nth-child(7) { grid-area: poza_7; }
+.grid_container>:nth-child(8) { grid-area: poza_8; }
+.grid_container>:nth-child(9) { grid-area: poza_9; }
+
+.grid_container{
+
+  display: grid;
+  grid-template-areas:
+  'poza_1 poza_2 poza_3'
+  'poza_4 poza_5 poza_6'
+  'poza_7 poza_8 poza_9';
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+
+.font{
+  font-family: 'Vollkorn', serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px grey;
+}
+
+
+
+.poza_grid{
+  width: 100%;
+  height: auto;
+
+}
+
+.poza_grid:hover{
+  transform:scale(1.2,1.2)rotateZ(360deg);
+  transition: all 0.5s linear;
+  border-radius: 50px;
+}
+
+.prezentare{
+display:flex;
+}
+.about_us{
+  display:flex;
+}
+.introducere{
+  text-align: center;
+  width: 50%;
+  justify-content: center;
+  padding-top: 150px;
+  padding-left: 70px;
+
+}
+.text_about_us{
+  text-align: center;
+  width: 50%;
+  justify-content: center;
+  padding-top: 100px;
+  padding-right: 100px;
+}
+.poze_about_us{
+  text-align: center;
+  display:flex;
+  width: 50%;
+  justify-content: center;
+  padding-top: 60px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+
+}
+.poza_echipa{
+  margin-top: 150px;
+  margin-left: 7%;
+  padding-right: 20px;
+}
+.responsive {
+  width: 100%;
+  max-width:450px;
+  max-height: 650px;
+  height: auto;
+}
+.responsive_2 {
+  width: 100%;
+  max-width:350px;
+  max-height:450px;
+  height: auto;
+}
+.responsive_video {
+  width: 100%;
+  max-width:600px;
+  max-height: 450px;
+  height: auto;
+}
+.center{
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video_presentation{
+padding: 50px;
+text-align: center;
+}
+
+
+@media only screen and (max-width:1000px){
+  .grid_container{
+    display: grid;
+    grid-template-areas:
+    'poza_1 poza_1 poza_2 poza_2'
+    '.      poza_3 poza_3 .     '
+    'poza_4 poza_4 poza_5 poza_5'
+    '.      poza_6 poza_6 .     '
+    'poza_7 poza_7 poza_8 poza_8'
+    '.      poza_9 poza_9 .     ';
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}
+
+@media only screen and (max-width:700px){
+  .grid_container{
+    display: grid;
+    grid-template-areas:
+    'poza_1'
+    'poza_2'
+    'poza_3'
+    'poza_4'
+    'poza_5'
+    'poza_6'
+    'poza_7'
+    'poza_8'
+    'poza_9';
+    padding: 10px;
+    grid-gap: 10px;
+  }
+}

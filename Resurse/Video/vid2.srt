@@ -1,0 +1,22 @@
+﻿WEBVTT
+
+00:00:00.000 --> 00:00:03.000 line:0 
+Echipa <i>Salahors</i> si-a dat seama de un lucru..
+
+00:00:03.190 --> 00:00:05.510 line:0
+Ca hainele sunt mai mult decat obiecte
+
+00:00:06.060 --> 00:00:08.330
+Ele reprezinta o modalitate de exprimare
+
+00:00:08.500 --> 00:00:09.600
+Iar noi..
+
+00:00:10.180 --> 00:00:12.720
+Am invatat sa rafinam produsele noastre
+
+00:00:13.160 --> 00:00:15.670
+Astfel incat sa oferim clientilor nostri
+
+00:00:16.020 --> 00:00:19.060
+O experienta premium atunci cand poarta piesele Salahors 
